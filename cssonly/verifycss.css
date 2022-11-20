@@ -1,0 +1,91 @@
+@import url("cssonly/resposive.css");
+.otps::-webkit-inner-spin-button
+{
+    display: none;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family:Arial, Helvetica, sans-serif
+}
+.main
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub_main
+{
+   border: 2px solid black;
+    width: 25%;
+    
+   border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+.sub_main h2
+{   margin-top: 30px;
+    
+    position: relative;
+}
+.sub_main p
+{  margin-top: 17px;
+    text-align: center;
+}
+.sub_main div input
+{  position: relative;
+    height: 40px;
+    width: 35px;
+    margin:5px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 22px;
+    
+   
+   
+}
+.sub_main div input::-webkit-input-placeholder
+{
+    font-weight:100;
+    color: rgb(165, 167, 167);
+}
+.sub_main div input:focus
+{   outline-color: rgb(58, 140, 248);
+    
+}
+.sub_main div{
+    margin-top: 25px;
+    
+}
+.h55{
+    position: relative;
+    background-color: rgb(226, 224, 224);
+    text-align: center;
+    letter-spacing: 1px;
+    color: rgb(144, 141, 141);
+    height: 50px;
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:20px;
+
+}
+h5
+{
+   
+    width: 299px;
+}
+.datap
+{
+    border-color:rgb(109, 172, 249,0.4) ;
+    box-shadow: 0px 4px 8px -3px gray;
+}
+.opt{
+    background-color: red;
+}
