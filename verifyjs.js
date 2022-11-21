@@ -41,8 +41,6 @@ input.forEach((element,index)=>{
             }
             
         }
-
-       
             if(event.key=="Backspace")
             {    if(input[index-1]!=undefined&&input[index-1].value!="")
                  {
@@ -59,10 +57,7 @@ input.forEach((element,index)=>{
                     otp_arry.pop(); 
                  }
                 
-            }
-          
-
-       
+            }  
     });
 
    
