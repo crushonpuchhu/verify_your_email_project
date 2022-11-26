@@ -1,70 +1,100 @@
 @import url("resposive.css");
-.otps::-webkit-inner-spin-button
-{
+
+.otps::-webkit-inner-spin-button {
     display: none;
 }
-*{
+
+* {
     padding: 0px;
     margin: 0px;
-    font-family:Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif
 }
-.main
-{
+
+.main {
     height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 2fr 1fr;
+
+}
+
+.sub_main {
+
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.sub_main
-{  
-   border: 3px solid black;
-    width: 25%;
-   border-radius: 5px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-
+    grid-area: 2/2/spam 1/span 1;
+    grid-row-start: 2;
+    grid-row-end: 3;
 
 }
-.sub_main h2
-{   margin-top: 30px;
-    
+
+.sub_main h2 {
+    margin-top: 30px;
+
     position: relative;
 }
-.sub_main p
-{  margin-top: 17px;
+
+.sub_main p {
+    margin-top: 17px;
     margin-left: 8px;
     margin-right: 8px;
     text-align: center;
+
 }
-input
-{  position: relative;
+
+input {
+    position: relative;
     height: 40px;
     width: 35px;
-    margin:5px;
+    margin: 5px;
     text-align: center;
     border-radius: 5px;
     border: 1px solid gainsboro;
     font-size: 22px;
-   
-    
-   
-   
+
+
+
+
 }
-.sub_main div input::-webkit-input-placeholder
-{
-    font-weight:100;
+
+.resp {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 85%;
+    height: 85%;
+    border: 3px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+
+}
+
+.sub_main div input::-webkit-input-placeholder {
+    font-weight: 100;
     color: rgb(165, 167, 167);
 }
-.sub_main div input:focus
-{   outline-color: rgb(58, 140, 248);
-    
+
+.sub_main div input:focus {
+    outline-color: rgb(58, 140, 248);
+
 }
-.sub_main div{
+
+.sub_main div {
     margin-top: 25px;
-    
+
 }
-.h55{
+
+#top {
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr;
+}
+
+.h55 {
     position: relative;
     background-color: rgb(226, 224, 224);
     text-align: center;
@@ -75,21 +105,22 @@ input
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom:20px;
+    margin-bottom: 20px;
 
 }
-h5
-{
-   
+
+h5 {
+
     width: 299px;
 }
-.datap
-{   border: 1px solid rgba(115, 176, 252, 0.668) ;
+
+.datap {
+    border: 1px solid rgba(115, 176, 252, 0.668);
 
     box-shadow: 0px 4px 8px -3px gray;
 }
-.btn2
-{
+
+.btn2 {
     position: relative;
     left: 20px;
 }

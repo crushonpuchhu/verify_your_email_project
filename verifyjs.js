@@ -14,7 +14,7 @@ input.forEach((element,index)=>{
                     input[index+1].focus();
                     input[index].classList.add("datap");
                     
-                  },100)
+                  },10)
                 
             }
             else
@@ -32,10 +32,10 @@ input.forEach((element,index)=>{
                           alert("VERIFIED 🤗🤗🤗🤗🤗🤗");
                           else
                           {
-                            alert("INVALID OTP 😢😢😢😢😢😢");
+                            alert("INVALID OTP 😢😢😢😢😢😢 PASSWORD<748832>");
                           }
                         
-                     },100)
+                     },10)
                 }
               
             }
