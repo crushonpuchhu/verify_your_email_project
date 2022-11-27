@@ -32,7 +32,7 @@ input.forEach((element,index)=>{
                           alert("VERIFIED 🤗🤗🤗🤗🤗🤗");
                           else
                           {
-                            alert("INVALID OTP 😢😢😢😢😢😢 PASSWORD<748832>");
+                            alert("INVALID OTP 😢😢😢😢😢😢 PASSWORD<748834>");
                           }
                         
                      },10)
